@@ -53,7 +53,7 @@ function draw() {
 
 if(logGroup1[i].x<0){
 
-  logGroup1[1].x = width
+  logGroup1[i].x = width
 }
 
  }
@@ -62,7 +62,7 @@ if(logGroup1[i].x<0){
 
   if(carGroup1[i].x<0){
   
-    carGroup1[1].x = width
+    carGroup1[i].x = width
   }
    }
 
@@ -70,7 +70,7 @@ if(logGroup1[i].x<0){
 
     if(carGroup1[i].x>400){
     
-      carGroup1[1].x = width
+      carGroup1[i].x = width
     }
      }
 
