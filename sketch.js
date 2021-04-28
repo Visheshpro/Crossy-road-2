@@ -68,9 +68,9 @@ if(logGroup1[i].x<0){
 
    for(i = 1; i<carGroup1.length; i++){
 
-    if(carGroup1[i].x>400){
+    if(carGroup1[i].x>width){
     
-      carGroup1[i].x = width
+      carGroup1[i].x = 0
     }
      }
 
